@@ -1,4 +1,4 @@
-<?php foreach($pages->findByTitle('News')->children()->visible()->flip()->limit(2) as $article): ?>
+<?php foreach($pages->find('newspage')->children()->visible()->flip()->limit(2) as $article): ?>
 <div class="latest-news">
 	<h3><?php echo html($article->title()) ?></h3>
 	<p><?php echo excerpt($article->text(), 100) ?></p>
