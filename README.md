@@ -1,4 +1,4 @@
-![](/https://styleci.io/repos/18986825/shield?branch=master)
+![](https://styleci.io/repos/18986825/shield?branch=master)
 
 frontpage-news
 ==============
